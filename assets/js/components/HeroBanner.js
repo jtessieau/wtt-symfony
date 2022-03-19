@@ -15,8 +15,8 @@ const HeroBanner = () => {
             </p>
           </div>
           <div className="hero-cta">
-            <NavLink to="/" className="cta-register">Create an account</NavLink>
-            <p className='cta-login'>Already a wtt user ? <NavLink to="/">Login</NavLink></p>
+            <NavLink to="/register" className="cta-register">Create an account</NavLink>
+            <p className='cta-login'>Already a wtt user ? <NavLink to="/login">Login</NavLink></p>
           </div>
         </div>
         <div className="hero-right">
