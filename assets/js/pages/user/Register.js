@@ -1,5 +1,5 @@
-import React from 'react'
-import Navigation from '../../components/Navigation'
+import React from "react"
+import Navigation from "../../components/Navigation"
 
 const Register = () => {
     return (
@@ -7,7 +7,7 @@ const Register = () => {
             <Navigation />
             <h1>Register</h1>
         </div>
-    );
-};
+    )
+}
 
-export default Register;
+export default Register

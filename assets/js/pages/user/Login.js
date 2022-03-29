@@ -1,5 +1,5 @@
-import React from 'react'
-import Navigation from '../../components/Navigation'
+import React from "react"
+import Navigation from "../../components/Navigation"
 
 const Login = () => {
     return (
@@ -7,7 +7,7 @@ const Login = () => {
             <Navigation />
             <h1>Login</h1>
         </div>
-    );
-};
+    )
+}
 
-export default Login;
+export default Login

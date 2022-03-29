@@ -1,76 +1,76 @@
 .homepage {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  .hero-banner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    //   flex-direction: column;
-    .hero-left {
-      padding: 0 3rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      h2 {
-        font-weight: 400;
-      }
-      p {
-        font-size: 1.4rem;
-        font-weight: 300;
-        line-height: 2.5rem;
-      }
-      .hero-cta {
-        .cta-register {
-          display: block;
-          margin: auto;
-          font-size: 1.6rem;
-          background-color: $primary;
-          padding: 1rem 2rem;
-          text-align: center;
-          color: white;
-          width: fit-content;
-          border-radius: 5px;
-          text-decoration: none;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    .hero-banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        //   flex-direction: column;
+        .hero-left {
+            padding: 0 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            h2 {
+                font-weight: 400;
+            }
+            p {
+                font-size: 1.4rem;
+                font-weight: 300;
+                line-height: 2.5rem;
+            }
+            .hero-cta {
+                .cta-register {
+                    display: block;
+                    margin: auto;
+                    font-size: 1.6rem;
+                    background-color: $primary;
+                    padding: 1rem 2rem;
+                    text-align: center;
+                    color: white;
+                    width: fit-content;
+                    border-radius: 5px;
+                    text-decoration: none;
+                }
+
+                .cta-login {
+                    font-size: 1rem;
+                    text-align: center;
+                    a {
+                        color: $primary;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .cta-register {
+                display: block;
+                margin: auto;
+                font-size: 2rem;
+                background-color: $primary;
+                padding: 1rem 2rem;
+                text-align: center;
+                color: white;
+                width: fit-content;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+            .cta-login {
+                font-size: 1rem;
+                text-align: center;
+                a {
+                    color: $primary;
+                    font-weight: bold;
+                }
+            }
         }
 
-        .cta-login {
-          font-size: 1rem;
-          text-align: center;
-          a {
-            color: $primary;
-            font-weight: bold;
-          }
+        .hero-right {
+            align-self: center;
+            img {
+                height: auto;
+                max-width: 100%;
+            }
         }
-      }
-      .cta-register {
-        display: block;
-        margin: auto;
-        font-size: 2rem;
-        background-color: $primary;
-        padding: 1rem 2rem;
-        text-align: center;
-        color: white;
-        width: fit-content;
-        border-radius: 5px;
-        text-decoration: none;
-      }
-
-      .cta-login {
-        font-size: 1rem;
-        text-align: center;
-        a {
-          color: $primary;
-          font-weight: bold;
-        }
-      }
     }
-
-    .hero-right {
-      align-self: center;
-      img {
-        height: auto;
-        max-width: 100%;
-      }
-    }
-  }
 }
